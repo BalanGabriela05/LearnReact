@@ -1,0 +1,29 @@
+.card{
+  border: 1px solid rgb(178, 176, 176);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.252);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  /* daca sunt mai multe ,le pune pe linia urmatoare, in functie de marimea ferestrei */
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  /* imagine cu bordura tip cerc :border-radius: 50%;*/
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(64, 64, 64);
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: rgb(130, 129, 129);
+}
